@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIAQOYVVZDBDRT2LKPB"
-  secret_key = "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"
+  access_key = "AKIAQOYVVZDBITOUYTG7"
+  secret_key = "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"
 }
 
 ## VPC for APP
