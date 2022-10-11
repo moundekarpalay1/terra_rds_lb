@@ -195,9 +195,6 @@ resource "aws_security_group" "dac_db_sg" {
     Name = "dac_db_sg"
   }
 }
-
-
-
 resource "aws_instance" "dac_app" {
   count                         = 3
   ami                           = "ami-01216e7612243e0ef"
@@ -211,6 +208,8 @@ resource "aws_instance" "dac_app" {
     Name = "dac_app_${count.index}"
   }
 }
+
+
 
 resource "aws_lb" "dac_app_lb" {
   name               = "dac-app-lb"
