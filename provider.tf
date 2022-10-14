@@ -1,4 +1,6 @@
-
+provider "aws" {
+  region     = "ap-south-1"
+}
 ## VPC for APP
 
 resource "aws_vpc" "dac_app_vpc" {
