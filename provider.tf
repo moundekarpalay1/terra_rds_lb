@@ -1,8 +1,4 @@
-provider "aws" {
-  region     = "ap-south-1"
-  access_key = "AKIAQOYVVZDBHGBM4RH5"
-  secret_key = "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"
-}
+
 ## VPC for APP
 
 resource "aws_vpc" "dac_app_vpc" {
